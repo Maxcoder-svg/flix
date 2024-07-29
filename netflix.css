@@ -1,0 +1,59 @@
+.body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.main{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/net.jpg);
+}
+.main h2{
+    color: red;
+    align-self:self-start;
+    margin-left: 0;
+}
+.page{
+    height: 80%;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 2px;
+    background-color: rgba(0, 0, 2, 0.616)
+    
+}
+.page h1{
+    color: aliceblue;
+    
+}
+.page input{
+    color: aliceblue;
+    margin: 2px;
+    border-radius: 5px;
+    height:6%;
+    background-color: rgba(0, 0, 2, 0.658)
+}
+.page button{
+    background-color: red;
+    border-radius: 10px;
+    height: 7%;
+    width: 45%;
+    color: aliceblue;
+}
+.page h5{
+    color: aliceblue;
+    font-size: large;
+    font-weight: 100;
+}
+.page p{
+    color: aliceblue;
+
+}
+
+
